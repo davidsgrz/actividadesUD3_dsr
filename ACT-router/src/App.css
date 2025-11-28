@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f6f7f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.header-container {
+  width: 100%;
+  background-color: #2f4f2f;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #f7e4b2;
+  letter-spacing: 2px;
+  border-bottom: 4px solid #1e351e;
+}
+
+/* NAVBAR */
+.nav-links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+  background-color: #4b0e0e;
+  padding: 18px 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #ffe600;
+  transform: translateY(-2px);
+}
+
+/* HOME */
+.inicio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 78vh;
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #7dd8e6, #45b7c4);
+}
+
+.inicio-titulo {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,.2);
+}
+
+.inicio-desc {
+  max-width: 650px;
+  font-size: 1.25rem;
+  color: #fff3b0;
+  margin-bottom: 35px;
+}
+
+/* ABOUT */
+.About-us {
+  padding: 30px 20px;
+}
+
+.About-container h2 {
+  background-color: #efbe4a;
+  color: #222;
+  padding: 20px 0;
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.About-container p {
+  font-size: 1.25rem;
+  max-width: 650px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  min-height: 50vh;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* PARAMETRO - NO PAGE */
+.parametro,
+.error404 {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+/* FOOTER */
+.footer-container {
+  background-color: #250d2b;
+  color: white;
+  padding: 40px 0 15px;
+  width: 100%;
+  margin-top: auto;
+  border-top: 4px solid #18071c;
+}
+
+.footer-container .titulo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+  text-align: center;
+}
